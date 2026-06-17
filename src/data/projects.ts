@@ -57,7 +57,7 @@ export const projects: Project[] = [
       ph(800, 500, '3D Printed Enclosure'),
     ],
     links: {
-      github: 'https://github.com/michaeltranfield',
+      github: 'https://github.com/senthecat',
     },
   },
   {
@@ -85,11 +85,37 @@ export const projects: Project[] = [
       ph(800, 500, 'Web UI'),
     ],
     links: {
-      github: 'https://github.com/michaeltranfield',
+      github: 'https://github.com/senthecat',
     },
   },
 
   // ── Mechanical Engineering ────────────────────────────────────────────────
+  {
+    id: 'c4-corvette-engine',
+    category: 'me',
+    slug: 'c4-corvette-engine-rebuild',
+    title: '1984 C4 Corvette — Engine Rebuild (In Progress)',
+    shortDescription:
+      'Hands-on rebuild of a 1984 C4 Corvette engine after the original spun a bearing — a self-directed project focused on learning automotive mechanics from the ground up.',
+    longDescription:
+      'An ongoing personal project to replace and rebuild the engine in a 1984 C4 Corvette. The original engine spun a rod bearing and was no longer salvageable, so it had to be pulled and discarded. The bulk of this project has been the learning curve: figuring out what a "spun bearing" actually means, what the failure implies for the rest of the block, how to source a replacement engine, and how to bring it back to running condition piece by piece. The mechanical work is secondary to the research — every step has required digging through service manuals, owner forums, parts catalogs, and rebuild walkthroughs before touching a wrench.',
+    bullets: [
+      'Diagnosed the original engine failure as a spun bearing and researched the downstream damage that typically rules out a simple in-block repair, leading to the decision to remove and discard the original block entirely.',
+      'Spent significant time on research before any wrenching: read through the factory service manual, C4-specific owner forums, and rebuild guides to build a baseline understanding of small-block layout, torque sequences, and the order of operations for a full rebuild.',
+      'Sourced a replacement engine after comparing tradeoffs between a running used engine, a long block, and a full rebuild kit — factoring in cost, condition uncertainty, and how much of the build I wanted to do myself.',
+      'Removed the original engine from the chassis: disconnected fuel, coolant, electrical, and exhaust; supported and unbolted the transmission interface; pulled the block with a hoist.',
+      'Working through reassembly of the replacement engine component by component, learning the function of each part (bearings, gaskets, timing components, accessories) as I install it rather than treating the rebuild as a black box.',
+      'Tracking outstanding parts and tasks in a running list — the rebuild is a work in progress and will need additional components and labor before the engine is ready to drop back in and start.',
+    ],
+    tech: ['Automotive Mechanics', 'Engine Rebuild', 'Service Manual Research', 'Hand Tools', 'Torque Specs', 'C4 Corvette Platform'],
+    date: 'In Progress',
+    images: [
+      ph(800, 500, 'Original Engine — Pre-Removal'),
+      ph(800, 500, 'Replacement Block'),
+      ph(800, 500, 'Reassembly In Progress'),
+    ],
+    links: {},
+  },
   {
     id: 'ninja-h2r',
     category: 'me',

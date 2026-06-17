@@ -54,9 +54,7 @@ function Hero() {
           Mechanical Engineering · Computer Science
         </p>
         <p className="max-w-lg mx-auto text-slate-400 text-base leading-relaxed mb-12">
-          I build things at the boundary of hardware and software — from custom USB HID
-          firmware on nRF52840 to parametric SolidWorks assemblies to AWS-connected IoT
-          devices.
+          I build things at the boundary of hardware and software...
         </p>
 
         {/* CTA */}
